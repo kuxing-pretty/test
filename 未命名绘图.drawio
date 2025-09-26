@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.4">
   <diagram name="第 1 页" id="FUbYzkAxzCpSJDZcHBcb">
-    <mxGraphModel dx="3445" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,16 +48,16 @@
         <mxCell id="taITbC-kTsuwHHpepLqA-13" value="场景二：高可用性测试" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
           <mxGeometry x="391" y="718" width="220" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="taITbC-kTsuwHHpepLqA-14" value="执行GR-01: 备主切换" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
+        <mxCell id="taITbC-kTsuwHHpepLqA-14" value="执行GR-01: 主备切换" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
           <mxGeometry x="263" y="822" width="213" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="taITbC-kTsuwHHpepLqA-15" value="验证切换至主库" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
+        <mxCell id="taITbC-kTsuwHHpepLqA-15" value="验证切换至新备库" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
           <mxGeometry x="284" y="926" width="172" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="taITbC-kTsuwHHpepLqA-16" value="执行GR-02: 主备切换" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
+        <mxCell id="taITbC-kTsuwHHpepLqA-16" value="执行GR-02: 主备恢复" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
           <mxGeometry x="526" y="822" width="213" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="taITbC-kTsuwHHpepLqA-17" value="验证切换回备库" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
+        <mxCell id="taITbC-kTsuwHHpepLqA-17" value="验证切换回原备库" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
           <mxGeometry x="546" y="926" width="172" height="54" as="geometry" />
         </mxCell>
         <mxCell id="taITbC-kTsuwHHpepLqA-18" value="高可用性验证" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="taITbC-kTsuwHHpepLqA-66">
